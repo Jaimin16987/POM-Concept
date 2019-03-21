@@ -1,0 +1,46 @@
+2019-03-13 21:07:26,540  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-13 21:07:37,922  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-13 21:07:43,088  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-13 21:07:48,463 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-03-13 21:07:48,464 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-03-13 21:07:48,465 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-03-13 21:07:48,467 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-03-13 21:07:48,467 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/patel/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-03-13 21:07:48,645 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-03-13 21:07:48,646 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-03-13 21:07:48,646 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-03-13 21:07:48,646 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-03-13 21:07:48,646 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/patel/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-03-14 01:29:31,380  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 01:29:42,336  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 01:29:47,319  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 01:34:28,157  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 01:34:35,175  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 01:34:39,926  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 02:31:28,107  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 02:31:34,788  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 02:31:39,430  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 02:32:47,860  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 02:32:54,738  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 02:32:59,312  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 15:42:07,775  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 15:42:15,861  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 15:42:21,159  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 17:42:08,013  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 17:42:15,724  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-14 17:42:20,989  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-15 01:53:48,287  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-15 01:53:55,237  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-15 01:54:00,405  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-16 00:23:06,381  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-16 00:23:13,960  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-16 00:23:19,070  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-17 11:40:17,470  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-17 11:40:27,274  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-17 11:40:32,026  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-18 01:52:44,953  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-18 01:52:51,233  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-18 01:52:55,978  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-18 02:04:17,657  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-18 02:04:23,804  INFO [main] LoginPageTest:24 - broweser is launching
+2019-03-18 02:04:28,433  INFO [main] LoginPageTest:24 - broweser is launching

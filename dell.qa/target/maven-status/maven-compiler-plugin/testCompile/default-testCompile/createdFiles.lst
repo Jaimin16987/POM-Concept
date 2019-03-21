@@ -1,0 +1,4 @@
+com\qa\TestCases\CrmPageTest.class
+com\qa\TestCases\ProductNservicePageTest.class
+com\qa\TestCases\LoginPageTest.class
+com\qa\TestCases\HomePageTest.class

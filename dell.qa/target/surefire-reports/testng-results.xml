@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-18T02:03:41 CDT" name="Command line suite" finished-at="2019-03-18T02:05:20 CDT" duration-ms="98502">
+    <groups>
+    </groups>
+    <test started-at="2019-03-18T02:03:41 CDT" name="Command line test" finished-at="2019-03-18T02:05:20 CDT" duration-ms="98502">
+      <class name="com.qa.TestCases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.HomePageTest@544fa968]" started-at="2019-03-18T02:04:05 CDT" name="setUp" finished-at="2019-03-18T02:04:10 CDT" duration-ms="5608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageTitleTest()[pri:1, instance:com.qa.TestCases.HomePageTest@544fa968]" started-at="2019-03-18T02:04:10 CDT" name="HomePageTitleTest" finished-at="2019-03-18T02:04:10 CDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.HomePageTest@544fa968]" started-at="2019-03-18T02:04:10 CDT" name="TearDown" finished-at="2019-03-18T02:04:11 CDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.HomePageTest@544fa968]" started-at="2019-03-18T02:04:11 CDT" name="setUp" finished-at="2019-03-18T02:04:17 CDT" duration-ms="5702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userNameLableTest()[pri:2, instance:com.qa.TestCases.HomePageTest@544fa968]" started-at="2019-03-18T02:04:17 CDT" name="userNameLableTest" finished-at="2019-03-18T02:04:17 CDT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameLableTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.HomePageTest@544fa968]" started-at="2019-03-18T02:04:17 CDT" name="TearDown" finished-at="2019-03-18T02:04:17 CDT" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.TestCases.HomePageTest -->
+      <class name="com.qa.TestCases.ProductNservicePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:33 CDT" name="setUp" finished-at="2019-03-18T02:04:39 CDT" duration-ms="6530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProNservicePageTitileTest()[pri:1, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:39 CDT" name="ProNservicePageTitileTest" finished-at="2019-03-18T02:04:39 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProNservicePageTitileTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:39 CDT" name="TearDown" finished-at="2019-03-18T02:04:40 CDT" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:40 CDT" name="setUp" finished-at="2019-03-18T02:04:47 CDT" duration-ms="6453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreatNewProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:47 CDT" name="CreatNewProductTest" data-provider="getProductTestData" finished-at="2019-03-18T02:04:49 CDT" duration-ms="2908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALaptop01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatNewProductTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:49 CDT" name="TearDown" finished-at="2019-03-18T02:04:50 CDT" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:50 CDT" name="setUp" finished-at="2019-03-18T02:04:56 CDT" duration-ms="6400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreatNewProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:56 CDT" name="CreatNewProductTest" data-provider="getProductTestData" finished-at="2019-03-18T02:04:59 CDT" duration-ms="2984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALaptop02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[222.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatNewProductTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:04:59 CDT" name="TearDown" finished-at="2019-03-18T02:05:00 CDT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:05:00 CDT" name="setUp" finished-at="2019-03-18T02:05:06 CDT" duration-ms="6162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreatNewProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:05:06 CDT" name="CreatNewProductTest" data-provider="getProductTestData" finished-at="2019-03-18T02:05:09 CDT" duration-ms="3027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALaptop03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[900.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[333.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatNewProductTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:05:09 CDT" name="TearDown" finished-at="2019-03-18T02:05:10 CDT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:05:10 CDT" name="setUp" finished-at="2019-03-18T02:05:16 CDT" duration-ms="6092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreatNewProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:05:16 CDT" name="CreatNewProductTest" data-provider="getProductTestData" finished-at="2019-03-18T02:05:19 CDT" duration-ms="2943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALaptop04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[444.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatNewProductTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.ProductNservicePageTest@d35dea7]" started-at="2019-03-18T02:05:19 CDT" name="TearDown" finished-at="2019-03-18T02:05:20 CDT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.TestCases.ProductNservicePageTest -->
+      <class name="com.qa.TestCases.CrmPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:41 CDT" name="setUp" finished-at="2019-03-18T02:03:49 CDT" duration-ms="8395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnAddContactTest()[pri:1, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:49 CDT" name="clickOnAddContactTest" finished-at="2019-03-18T02:03:50 CDT" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddContactTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:50 CDT" name="TearDown" finished-at="2019-03-18T02:03:51 CDT" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:51 CDT" name="setUp" finished-at="2019-03-18T02:03:57 CDT" duration-ms="6305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreateNewContactTest()[pri:2, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:57 CDT" name="CreateNewContactTest" finished-at="2019-03-18T02:03:57 CDT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewContactTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:57 CDT" name="TearDown" finished-at="2019-03-18T02:03:58 CDT" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:03:58 CDT" name="setUp" finished-at="2019-03-18T02:04:04 CDT" duration-ms="6224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crmPageTitleTest()[pri:3, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:04:04 CDT" name="crmPageTitleTest" finished-at="2019-03-18T02:04:04 CDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmPageTitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.TestCases.CrmPageTest@3bd82cf5]" started-at="2019-03-18T02:04:04 CDT" name="TearDown" finished-at="2019-03-18T02:04:05 CDT" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.TestCases.CrmPageTest -->
+      <class name="com.qa.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:17 CDT" name="setUp" finished-at="2019-03-18T02:04:21 CDT" duration-ms="4048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTest()[pri:1, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:21 CDT" name="LoginTest" finished-at="2019-03-18T02:04:23 CDT" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:23 CDT" name="teraDown" finished-at="2019-03-18T02:04:23 CDT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:23 CDT" name="setUp" finished-at="2019-03-18T02:04:27 CDT" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifylogo()[pri:2, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:27 CDT" name="verifylogo" finished-at="2019-03-18T02:04:27 CDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:27 CDT" name="teraDown" finished-at="2019-03-18T02:04:28 CDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:28 CDT" name="setUp" finished-at="2019-03-18T02:04:32 CDT" duration-ms="4012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPageTitleTest()[pri:3, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:32 CDT" name="LoginPageTitleTest" finished-at="2019-03-18T02:04:32 CDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@247bddad]" started-at="2019-03-18T02:04:32 CDT" name="teraDown" finished-at="2019-03-18T02:04:33 CDT" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- com.qa.TestCases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

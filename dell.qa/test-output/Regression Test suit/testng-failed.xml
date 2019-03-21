@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test suit]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Wordpress application test case(failed)">
+    <classes>
+      <class name="com.qa.TestCases.PostPageTest">
+        <methods>
+          <include name="selectPost"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.PostPageTest -->
+      <class name="com.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="teraDown"/>
+          <include name="verifylogo"/>
+          <include name="setUp"/>
+          <include name="LoginPageTitleTest"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.LoginPageTest -->
+      <class name="com.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="userNameLableTest"/>
+          <include name="HomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Wordpress application test case(failed) -->
+</suite> <!-- Failed suite [Regression Test suit] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test suit">
+  
+  <listeners>
+   <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  
+  <test name="Techfios App test case">
+    
+    <classes>
+      <class name="com.qa.TestCases.LoginPageTest"> </class>
+      <class name="com.qa.TestCases.HomePageTest"> </class> 
+     <!--  <class name="com.qa.TestCases.CrmPageTest"> </class> 
+      <class name="com.qa.TestCases.ProductNservicePageTest"> </class> 
+ -->
+    
+    </classes>
+  
+  </test> 
+</suite> 
