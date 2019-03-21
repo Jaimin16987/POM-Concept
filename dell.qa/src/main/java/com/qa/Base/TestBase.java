@@ -30,8 +30,8 @@ public class TestBase {
     	
     	  try {
 			      prop = new Properties();
-			 FileInputStream fs = new FileInputStream("C:\\Users\\patel\\eclipse-workspace\\dell.qa\\src\\main\\java\\com"
-					                     + "\\qa\\Config\\config.properties");
+			 FileInputStream fs = new FileInputStream("C:\\Users\\patel\\git\\POM-Concept\\dell.qa\\src\\main"
+			 		+ "\\java\\com\\qa\\Config\\config.properties");
 			      prop.load(fs);
 		} catch (FileNotFoundException e) {
 			    e.printStackTrace();

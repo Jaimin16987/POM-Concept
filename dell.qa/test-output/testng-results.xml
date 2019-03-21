@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-17T16:40:17Z" name="Default suite" finished-at="2019-03-17T16:40:36Z" duration-ms="19323">
+  <suite started-at="2019-03-21T21:08:44Z" name="Default suite" finished-at="2019-03-21T21:09:02Z" duration-ms="18283">
     <groups>
     </groups>
-    <test started-at="2019-03-17T16:40:17Z" name="Default test" finished-at="2019-03-17T16:40:36Z" duration-ms="19323">
+    <test started-at="2019-03-21T21:08:44Z" name="Default test" finished-at="2019-03-21T21:09:02Z" duration-ms="18283">
       <class name="com.qa.TestCases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:17Z" name="setUp" finished-at="2019-03-17T16:40:25Z" duration-ms="7665" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:44Z" name="setUp" finished-at="2019-03-21T21:08:49Z" duration-ms="5387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:1, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:25Z" name="LoginTest" finished-at="2019-03-17T16:40:26Z" duration-ms="1534" status="PASS">
+        <test-method signature="LoginTest()[pri:1, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:49Z" name="LoginTest" finished-at="2019-03-21T21:08:51Z" duration-ms="2220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:26Z" name="teraDown" finished-at="2019-03-17T16:40:27Z" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:51Z" name="teraDown" finished-at="2019-03-21T21:08:52Z" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teraDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:27Z" name="setUp" finished-at="2019-03-17T16:40:31Z" duration-ms="4092" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:52Z" name="setUp" finished-at="2019-03-21T21:08:57Z" duration-ms="4455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifylogo()[pri:2, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:31Z" name="verifylogo" finished-at="2019-03-17T16:40:31Z" duration-ms="35" status="PASS">
+        <test-method signature="verifylogo()[pri:2, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:57Z" name="verifylogo" finished-at="2019-03-21T21:08:57Z" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogo -->
-        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:31Z" name="teraDown" finished-at="2019-03-17T16:40:32Z" duration-ms="624" status="PASS">
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:57Z" name="teraDown" finished-at="2019-03-21T21:08:57Z" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teraDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:32Z" name="setUp" finished-at="2019-03-17T16:40:36Z" duration-ms="4102" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:08:57Z" name="setUp" finished-at="2019-03-21T21:09:01Z" duration-ms="4211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPageTitleTest()[pri:3, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:36Z" name="LoginPageTitleTest" finished-at="2019-03-17T16:40:36Z" duration-ms="7" status="PASS">
+        <test-method signature="LoginPageTitleTest()[pri:3, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:09:01Z" name="LoginPageTitleTest" finished-at="2019-03-21T21:09:01Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-17T16:40:36Z" name="teraDown" finished-at="2019-03-17T16:40:36Z" duration-ms="625" status="PASS">
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@7c711375]" started-at="2019-03-21T21:09:01Z" name="teraDown" finished-at="2019-03-21T21:09:02Z" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teraDown -->
