@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
-              <span class="suite-name border-passed">Command line suite</span>
+              <span class="suite-name border-skipped">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">10 methods,  1 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.qa.TestCases.ProductNservicePageTest" class="method navigator-link" hash-for-method="CreatNewProductTest">CreatNewProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,26 +114,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.qa.TestCases.ProductNservicePageTest" class="method navigator-link" hash-for-method="CreatNewProductTest(ALaptop01, 500.0, 111.0, testing1)">CreatNewProductTest(ALaptop01, 500.0, 111.0, testing1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.qa.TestCases.ProductNservicePageTest" class="method navigator-link" hash-for-method="CreatNewProductTest(ALaptop04, 800.0, 444.0, testing4)">CreatNewProductTest(ALaptop04, 800.0, 444.0, testing4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.qa.TestCases.ProductNservicePageTest" class="method navigator-link" hash-for-method="CreatNewProductTest(ALaptop02, 700.0, 222.0, testing2)">CreatNewProductTest(ALaptop02, 700.0, 222.0, testing2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.qa.TestCases.ProductNservicePageTest" class="method navigator-link" hash-for-method="CreatNewProductTest(ALaptop03, 900.0, 333.0, testing3)">CreatNewProductTest(ALaptop03, 900.0, 333.0, testing3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="com.qa.TestCases.CrmPageTest" class="method navigator-link" hash-for-method="CreateNewContactTest">CreateNewContactTest</a> <!-- method navigator-link -->
@@ -177,6 +171,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.TestCases.ProductNservicePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatNewProductTest">
+                  </a> <!-- CreatNewProductTest -->
+                  <span class="method-name">CreatNewProductTest</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:173)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:224)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:198)
+	at com.qa.Util.TestUtil.getTestData(TestUtil.java:38)
+	at com.qa.TestCases.ProductNservicePageTest.getProductTestData(ProductNservicePageTest.java:45)
+	... 34 more
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -205,38 +224,6 @@
               <span class="class-name">com.qa.TestCases.ProductNservicePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CreatNewProductTest(ALaptop01, 500.0, 111.0, testing1)">
-                  </a> <!-- CreatNewProductTest(ALaptop01, 500.0, 111.0, testing1) -->
-                  <span class="method-name">CreatNewProductTest</span>
-                  <span class="parameters">(ALaptop01, 500.0, 111.0, testing1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="CreatNewProductTest(ALaptop04, 800.0, 444.0, testing4)">
-                  </a> <!-- CreatNewProductTest(ALaptop04, 800.0, 444.0, testing4) -->
-                  <span class="method-name">CreatNewProductTest</span>
-                  <span class="parameters">(ALaptop04, 800.0, 444.0, testing4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="CreatNewProductTest(ALaptop02, 700.0, 222.0, testing2)">
-                  </a> <!-- CreatNewProductTest(ALaptop02, 700.0, 222.0, testing2) -->
-                  <span class="method-name">CreatNewProductTest</span>
-                  <span class="parameters">(ALaptop02, 700.0, 222.0, testing2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="CreatNewProductTest(ALaptop03, 900.0, 333.0, testing3)">
-                  </a> <!-- CreatNewProductTest(ALaptop03, 900.0, 333.0, testing3) -->
-                  <span class="method-name">CreatNewProductTest</span>
-                  <span class="parameters">(ALaptop03, 900.0, 333.0, testing3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="ProNservicePageTitileTest">
@@ -358,64 +345,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CreatNewProductTest')
-data.setCell(0, 2, 'com.qa.TestCases.ProductNservicePageTest')
-data.setCell(0, 3, 3027);
+data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 2, 'com.qa.TestCases.LoginPageTest')
+data.setCell(0, 3, 1891);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CreatNewProductTest')
-data.setCell(1, 2, 'com.qa.TestCases.ProductNservicePageTest')
-data.setCell(1, 3, 2984);
+data.setCell(1, 1, 'clickOnAddContactTest')
+data.setCell(1, 2, 'com.qa.TestCases.CrmPageTest')
+data.setCell(1, 3, 604);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CreatNewProductTest')
-data.setCell(2, 2, 'com.qa.TestCases.ProductNservicePageTest')
-data.setCell(2, 3, 2943);
+data.setCell(2, 1, 'CreateNewContactTest')
+data.setCell(2, 2, 'com.qa.TestCases.CrmPageTest')
+data.setCell(2, 3, 572);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CreatNewProductTest')
-data.setCell(3, 2, 'com.qa.TestCases.ProductNservicePageTest')
-data.setCell(3, 3, 2908);
+data.setCell(3, 1, 'verifylogo')
+data.setCell(3, 2, 'com.qa.TestCases.LoginPageTest')
+data.setCell(3, 3, 33);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoginTest')
-data.setCell(4, 2, 'com.qa.TestCases.LoginPageTest')
-data.setCell(4, 3, 1498);
+data.setCell(4, 1, 'userNameLableTest')
+data.setCell(4, 2, 'com.qa.TestCases.HomePageTest')
+data.setCell(4, 3, 31);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'clickOnAddContactTest')
+data.setCell(5, 1, 'crmPageTitleTest')
 data.setCell(5, 2, 'com.qa.TestCases.CrmPageTest')
-data.setCell(5, 3, 437);
+data.setCell(5, 3, 12);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'CreateNewContactTest')
-data.setCell(6, 2, 'com.qa.TestCases.CrmPageTest')
-data.setCell(6, 3, 300);
+data.setCell(6, 1, 'LoginPageTitleTest')
+data.setCell(6, 2, 'com.qa.TestCases.LoginPageTest')
+data.setCell(6, 3, 8);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'userNameLableTest')
+data.setCell(7, 1, 'HomePageTitleTest')
 data.setCell(7, 2, 'com.qa.TestCases.HomePageTest')
-data.setCell(7, 3, 39);
+data.setCell(7, 3, 8);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifylogo')
-data.setCell(8, 2, 'com.qa.TestCases.LoginPageTest')
-data.setCell(8, 3, 29);
+data.setCell(8, 1, 'ProNservicePageTitileTest')
+data.setCell(8, 2, 'com.qa.TestCases.ProductNservicePageTest')
+data.setCell(8, 3, 7);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'HomePageTitleTest')
-data.setCell(9, 2, 'com.qa.TestCases.HomePageTest')
-data.setCell(9, 3, 13);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'crmPageTitleTest')
-data.setCell(10, 2, 'com.qa.TestCases.CrmPageTest')
-data.setCell(10, 3, 9);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'LoginPageTitleTest')
-data.setCell(11, 2, 'com.qa.TestCases.LoginPageTest')
-data.setCell(11, 3, 6);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'ProNservicePageTitileTest')
-data.setCell(12, 2, 'com.qa.TestCases.ProductNservicePageTest')
-data.setCell(12, 3, 5);
+data.setCell(9, 1, 'CreatNewProductTest')
+data.setCell(9, 2, 'com.qa.TestCases.ProductNservicePageTest')
+data.setCell(9, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -448,164 +423,116 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickOnAddContactTest</span>
-                <span class="method-start">8396 ms</span>
+                <span class="method-start">8634 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">8835 ms</span>
+                <span class="method-start">9240 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9472 ms</span>
+                <span class="method-start">9869 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CreateNewContactTest</span>
-                <span class="method-start">15778 ms</span>
+                <span class="method-start">16642 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">16079 ms</span>
+                <span class="method-start">17215 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">16684 ms</span>
+                <span class="method-start">17844 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">crmPageTitleTest</span>
-                <span class="method-start">22909 ms</span>
+                <span class="method-start">25093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">22918 ms</span>
+                <span class="method-start">25105 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.TestCases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">23530 ms</span>
+                <span class="method-start">25729 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">HomePageTitleTest</span>
-                <span class="method-start">29139 ms</span>
+                <span class="method-start">31292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">29153 ms</span>
+                <span class="method-start">31301 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29771 ms</span>
+                <span class="method-start">31913 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">userNameLableTest</span>
-                <span class="method-start">35473 ms</span>
+                <span class="method-start">38003 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">35512 ms</span>
+                <span class="method-start">38034 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.TestCases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">36113 ms</span>
+                <span class="method-start">38654 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">40161 ms</span>
+                <span class="method-start">43006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teraDown</span>
-                <span class="method-start">41659 ms</span>
+                <span class="method-start">44897 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">42261 ms</span>
+                <span class="method-start">45518 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifylogo</span>
-                <span class="method-start">46244 ms</span>
+                <span class="method-start">50128 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teraDown</span>
-                <span class="method-start">46273 ms</span>
+                <span class="method-start">50161 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">46889 ms</span>
+                <span class="method-start">50765 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginPageTitleTest</span>
-                <span class="method-start">50901 ms</span>
+                <span class="method-start">54978 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teraDown</span>
-                <span class="method-start">50907 ms</span>
+                <span class="method-start">54986 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.TestCases.ProductNservicePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">51490 ms</span>
+                <span class="method-start">55595 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ProNservicePageTitileTest</span>
-                <span class="method-start">58020 ms</span>
+                <span class="method-start">62249 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">58025 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">59046 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">CreatNewProductTest(ALaptop01, 500.0, 111.0, testing1)</span>
-                <span class="method-start">65499 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">68408 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">69009 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">CreatNewProductTest(ALaptop02, 700.0, 222.0, testing2)</span>
-                <span class="method-start">75409 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">78393 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">79012 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">CreatNewProductTest(ALaptop03, 900.0, 333.0, testing3)</span>
-                <span class="method-start">85174 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">88201 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">88815 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">CreatNewProductTest(ALaptop04, 800.0, 444.0, testing4)</span>
-                <span class="method-start">94907 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">97851 ms</span>
+                <span class="method-start">62256 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
